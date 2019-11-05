@@ -72,7 +72,7 @@ input, select, textarea {
 	appearance: none;
 }
 
-/* Basic */
+/* ------------------BASICS------------------------- */
 
 	html {
 		box-sizing: border-box;
@@ -111,13 +111,13 @@ input, select, textarea {
 		-ms-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		border-bottom: dotted 1px;
-		color: #49bf9d;
+		color: lightcyan;
 		text-decoration: none;
 	}
 
 		a:hover {
 			border-bottom-color: transparent;
-			color: #49bf9d !important;
+			color: lightcyan !important;
 			text-decoration: none;
 		}
 
@@ -290,7 +290,7 @@ input, select, textarea {
 
 		}
 
-/* Row */
+/* ------------------ROW----------------------- */
 
 	.row {
 		display: flex;
@@ -1841,7 +1841,7 @@ input, select, textarea {
 		input[type="email"]:focus,
 		select:focus,
 		textarea:focus {
-			border-color: #49bf9d;
+			border-color: lightcyan;
 		}
 
 	select {
@@ -1946,7 +1946,7 @@ input, select, textarea {
 
 		input[type="checkbox"]:focus + label:before,
 		input[type="radio"]:focus + label:before {
-			border-color: #49bf9d;
+			border-color:lightcyan;
 		}
 
 	input[type="checkbox"] + label:before {
@@ -2593,11 +2593,11 @@ input, select, textarea {
 		justify-content: space-between;
 		background-color: #1f1815;
 		background-attachment: scroll,								scroll;
-		background-image: url("images/overlay.png"), url("../../images/bg.jpg");
+		background-image: url("../../images/leavez.jpg"), url("../../images/leavez.jpg");
 		background-position: top left,							top left;
 		background-repeat: repeat,								no-repeat;
-		background-size: auto,								150%;
-		color: rgba(255, 255, 255, 0.5);
+		background-size: cover;
+		color: rgba(255, 255, 255, 0.75);
 		height: 100%;
 		left: 0;
 		padding: 8em 4em;
@@ -2632,7 +2632,7 @@ input, select, textarea {
 		}
 
 		#header h1 {
-			color: rgba(255, 255, 255, 0.5);
+			color: rgba(255, 255, 255, 0.75);
 			font-size: 1.35em;
 			line-height: 1.75em;
 			margin: 0;
