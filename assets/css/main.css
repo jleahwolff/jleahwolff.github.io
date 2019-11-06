@@ -111,13 +111,13 @@ input, select, textarea {
 		-ms-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		border-bottom: dotted 1px;
-		color: lightcyan;
+		color: #49bf9d;
 		text-decoration: none;
 	}
 
 		a:hover {
 			border-bottom-color: transparent;
-			color: lightcyan !important;
+			color: #49bf9d !important;
 			text-decoration: none;
 		}
 
@@ -1841,7 +1841,7 @@ input, select, textarea {
 		input[type="email"]:focus,
 		select:focus,
 		textarea:focus {
-			border-color: lightcyan;
+			border-color: #49bf9d;
 		}
 
 	select {
@@ -1946,7 +1946,7 @@ input, select, textarea {
 
 		input[type="checkbox"]:focus + label:before,
 		input[type="radio"]:focus + label:before {
-			border-color:lightcyan;
+			border-color:#49bf9d;
 		}
 
 	input[type="checkbox"] + label:before {
@@ -2593,12 +2593,12 @@ input, select, textarea {
 		justify-content: space-between;
 		background-color: #1f1815;
 		background-attachment: scroll,								scroll;
-		background-image: url("../../images/leavez.jpg"), url("../../images/leavez.jpg");
-		background-position: top left,							top left;
-		background-repeat: repeat,								no-repeat;
+		background-image: url("../../images/bwca.jpg"), url("../../images/bwca.jpg");
+		background-position: top right,							top left;
+		background-repeat:no-repeat;
 		background-size: cover;
 		color: rgba(255, 255, 255, 0.75);
-		height: 100%;
+		height: 105%;
 		left: 0;
 		padding: 8em 4em;
 		position: fixed;
@@ -2632,10 +2632,15 @@ input, select, textarea {
 		}
 
 		#header h1 {
-			color: rgba(255, 255, 255, 0.75);
+			color: rgba(255, 255, 255, 0.842);
 			font-size: 1.35em;
 			line-height: 1.75em;
 			margin: 0;
+			/* background-color:black; */
+		}
+
+		#header h1::selection {
+			background:black;
 		}
 
 		#header .image.avatar {
